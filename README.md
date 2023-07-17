@@ -5,4 +5,4 @@ Google has since made changes to how they handle webscrapers, rendering this too
 
 ## Update 17/7/23
 
-I have changed the implementation so that the tool works again, manual reCaptcha solving is required for the time being.
+I have changed the implementation so that the tool works again (selenium in/requests out), manual reCaptcha solving is required for the time being. Working on dealing with 0 citation papers and multiple-page scraping w/o captcha checks every request.
