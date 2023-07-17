@@ -32,6 +32,7 @@ for tag in paper_tag:
     paper_names.append(tag.select('h3')[0].get_text())
 for i in range(len(paper_names)):
     paper_names[i] = paper_names[i].replace("[HTML][HTML] ", "")
+    paper_names[i].strip("[PDF][B][BOOK]")
 
 
 #get citation numbers
